@@ -313,11 +313,15 @@ kubectl version --short --client
 ```bash
 # Downloads and extracts eksctl in one command. --silent hides progress output, --location follows redirects.
 curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+
 # Moves eksctl to /usr/bin so it can be run from anywhere.
-sudo mv /tmp/eksctl /usr/bin
+mv /tmp/eksctl /usr/bin
+
 # eksctl version
 eksctl version
 ```
+
+![eksctl](Images/eksctl.png)
 
 ---
 
