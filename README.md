@@ -330,11 +330,15 @@ eksctl version
 ```bash
 # Installs Node.js.
 yum install nodejs
+
 # Displays Node.js version.
 node -v
+
 # Displays npm version.
 npm -v
 ```
+
+![nodejs](Images/nodejs.png)
 
 ---
 
